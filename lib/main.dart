@@ -2,14 +2,13 @@ import 'package:flutter/material.dart';
 
 import 'widgets/rich_text.dart';
 import 'widgets/container_widget.dart';
+import 'widgets/appbar_example.dart';
 
 void main() {
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
     home: Scaffold(
-      appBar: AppBar(
-        title: const Text('App Title'),
-      ),
-      body: const ContainerExample(),
+      appBar: AppBarExample(),
+      body: ContainerExample(),
     ),
   ));
 }
