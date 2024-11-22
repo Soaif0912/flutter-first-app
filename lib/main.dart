@@ -20,7 +20,8 @@ import 'widgets/Clipper Widget/clip_path.dart';
 import 'widgets/Drwaer/drawer_widget.dart';
 
 void main() {
-  runApp(const MaterialApp(
-    home: DrawerWidgetExample(),
+  runApp( MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: OverlappingSectionsExample(),
   ));
 }
