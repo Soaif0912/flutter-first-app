@@ -7,7 +7,7 @@ class RowWidgetExample extends StatelessWidget{
     return Scaffold(
       appBar: AppBar(
         title: const Text('Row Widget'),
-        backgroundColor: Color.fromARGB(233, 9, 196, 209),
+        backgroundColor: const Color.fromARGB(233, 9, 196, 209),
       ),
       body: Row(
         mainAxisAlignment: MainAxisAlignment.end,

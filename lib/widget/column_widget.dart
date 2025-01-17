@@ -7,16 +7,16 @@ class ColumnExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Column Example')),
+      appBar: AppBar(title: const Text('Column Example')),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center, // Align children vertically in the center
         crossAxisAlignment: CrossAxisAlignment.center, // Align children horizontally in the center
         children: <Widget>[
-          Text('Item 1'),
-          Text('Item 2'),
+          const Text('Item 1'),
+          const Text('Item 2'),
           ElevatedButton(
             onPressed: () {},
-            child: Text('Button'),
+            child: const Text('Button'),
           ),
         ],
       ),

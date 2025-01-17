@@ -32,7 +32,7 @@ class SingleChildScrollViewExample extends StatelessWidget {
                 ),
               ),
             ),
-            Container(
+            SizedBox(
               height: screenHeight * 0.4, // 40% of screen height
               width: screenWidth * 0.9, // 90% of screen width
               child: Image.asset('images/demo-pexels-1.jpg'),

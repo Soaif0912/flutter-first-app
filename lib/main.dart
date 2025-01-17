@@ -1,27 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screens/getx_demo.dart/ui.dart';
+import 'package:flutter_application_1/screens/shopping_page/shopping_list.dart';
 
-import 'widgets/rich_text.dart';
-import 'widgets/container_widget.dart';
-import 'widgets/appbar_example.dart';
+// widget importing -->
+import 'widget/Clipper Widget/clip_path.dart';
 
-// widgets importing -->
-import 'widgets/column_widget.dart';
-import 'widgets/row_widget.dart';
-import 'widgets/single_child_scroll_view_example.dart';
-import 'widgets/flutterlogo_example.dart';
-import 'widgets/flutterlogo_example.dart';
-import 'widgets/stack_example.dart';
-import 'widgets/indexedStack.dart';
-import 'widgets/Clipper Widget/clip_rect.dart';
-import 'widgets/Clipper Widget/clipr_rect.dart';
-import 'widgets/Clipper Widget/clip_oval.dart';
-import 'widgets/Clipper Widget/clip_path.dart';
-
-import 'widgets/Drwaer/drawer_widget.dart';
 
 void main() {
   runApp( MaterialApp(
+    title: 'Shopping App',
     debugShowCheckedModeBanner: false,
-    home: OverlappingSectionsExample(),
+    home: ProductPage(),
   ));
 }

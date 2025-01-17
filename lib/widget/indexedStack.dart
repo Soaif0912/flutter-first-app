@@ -26,7 +26,7 @@ class _IndexedStackEampleState extends State<IndexedStackEample>{
               child: const Text('First'),
             ),
             Container(
-              padding: EdgeInsets.all(50),
+              padding: const EdgeInsets.all(50),
               color: Colors.yellow,
               child: const Text('Second'),
             ),

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class OverlappingSectionsExample extends StatelessWidget {
+  const OverlappingSectionsExample({super.key});
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.sizeOf(context);
