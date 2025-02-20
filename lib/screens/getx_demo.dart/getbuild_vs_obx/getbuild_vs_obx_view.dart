@@ -1,6 +1,6 @@
 
+import 'package:first_flutter_app/screens/getx_demo.dart/getbuild_vs_obx/getbuild_vs_obx_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/screens/getx_demo.dart/getbuild_vs_obx/getbuild_vs_obx_controller.dart';
 import 'package:get/get.dart';
 
 class GetbuildVsObxPage extends StatelessWidget {
